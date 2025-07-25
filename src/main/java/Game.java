@@ -6,8 +6,9 @@ public class Game {
     private int price;
 
     public Game(String name, double rating, int price) {
-        //TODO
-
+        this.name = name;
+        this.rating = rating;
+        this.price = price;
     }
 
     public String getName() {
